@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GEOPORTAL</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="cabecera-portal">
+        <div class="contenido-cabecera">
+            <div class="marca">
+                <span class="logo-portal" aria-hidden="true">🌍</span>
+                <div>
+                    <h1>GEOPORTAL</h1>
+                    <p>Acceso directo a mis aplicaciones geoespaciales</p>
+                </div>
+            </div>
+            <p class="resumen-portal"><strong id="numeroAplicaciones">0</strong> aplicaciones</p>
+        </div>
+    </header>
+
+    <main class="contenido-portal">
+        <section id="listaAplicaciones" class="lista-aplicaciones" aria-label="Aplicaciones"></section>
+
+        <section class="leyenda">
+            <span><i class="estado estado-activo"></i> Disponible</span>
+            <span><i class="estado estado-caido"></i> No responde</span>
+            <span><i class="estado estado-comprobando"></i> Comprobando</span>
+        </section>
+    </main>
+
+    <footer class="pie-portal">
+        GEOPORTAL · geospatiallab.xyz
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/portal.js"></script>
+</body>
+
+</html>
