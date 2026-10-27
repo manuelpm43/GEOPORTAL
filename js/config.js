@@ -36,14 +36,14 @@ const aplicaciones = [
         id: 'drones',
         nombre: 'DRONES',
         subtitulo: 'Visor de recorte MDT02 / MDS02',
-        descripcion: 'Planificación de zonas de vuelo UAS: dibujo del polígono, hojas CNIG y GeoTIFF recortado del modelo de elevación.',
+        descripcion: 'Planificación de zonas de vuelo UAS: dibujo del polígono, hojas CNIG, GeoTIFF recortado MDT02 + MDS02 y análisis de colisiones. Pide usuario y contraseña.',
         icono: null,
         sigla: 'UAS',
         color: '#1d4ed8',
-        etiquetas: ['Leaflet', 'Python/Flask', 'PostgreSQL'],
-        urlProduccion: null,
+        etiquetas: ['Leaflet', 'Python/Flask', 'gunicorn', 'PostgreSQL'],
+        urlProduccion: 'https://drones.geospatiallab.xyz',
         urlLocal: 'http://127.0.0.1:5000',
-        arranqueLocal: 'cd C:\\Proyectos\\DRONES; .\\.venv\\Scripts\\Activate.ps1; python server.py',
+        arranqueLocal: 'cd C:\\Proyectos\\DRONES; .\\iniciar.ps1   # abre el túnel SSH y arranca el visor',
         carpeta: 'C:\\Proyectos\\DRONES'
     }
 ];

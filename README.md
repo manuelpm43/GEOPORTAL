@@ -13,7 +13,7 @@ verde = disponible, rojo = no responde.
 | --- | --- | --- |
 | BIDELAN | https://visor.geospatiallab.xyz | — |
 | CORTES | https://cortes.geospatiallab.xyz | http://localhost:4100 (`MODO_LOCAL=1` en `backend/.env`, `npm start`) |
-| DRONES | — | http://127.0.0.1:5000 (`python server.py`) |
+| DRONES | https://drones.geospatiallab.xyz (usuario y contraseña) | http://127.0.0.1:5000 (`.\iniciar.ps1`) |
 
 ## Añadir una aplicación
 
